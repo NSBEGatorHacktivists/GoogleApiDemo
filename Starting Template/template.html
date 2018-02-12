@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- A link to an external style sheet, W3.css. Not really used, but does affect font-->
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!--Connects our style sheet to file -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>Google Maps Demo</title>
+</head>
+<body>
+	<h1 id="title">Select your starting point</h1>
+		
+	<div id="directions">
+		<h2>Directions</h2>
+		<!--This list will be dynamically created to travel directions-->
+		<ol id="list">
+		</ol>
+	</div>
+	
+	<!-- This div will be used as our map -->
+	<div id="map" class=""></div>
+
+	<!-- This button will be used to confirm locations on our map -->	
+	<button id="button">Confirm Location</button>
+
+	<!-- This external javascript allows use Jquery to manipulate HTML elements -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--Links our javascript file -->
+	<script type="text/javascript" src="script.js"></script>
+
+	<!--Script needed to use Google maps API, it includes a call back function, initMap, that is defined in our script.js file-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=<API KEY>&callback=initMap"
+	async defer></script>
+</body>
+</html>
