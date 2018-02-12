@@ -1,0 +1,36 @@
+h1{
+	width: 30%;
+	margin: auto;
+	color: royalblue;
+	margin-bottom: 16px;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	background-color: lightgray;
+}
+
+#directions {
+	display: inline;
+	float:right;
+	margin-right: 10%;
+}
+
+#map {
+	width:500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	display:block;
+	width: 200px;
+	margin-top:16px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+}
